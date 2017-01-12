@@ -1,5 +1,5 @@
 name:                double-extra
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Missing presentations for Double numbers (fixed, scientific etc.)
 description:         Please see README.md
 homepage:            https://github.com/tolysz/double-extra#readme
@@ -26,10 +26,8 @@ library
            Data.Double.Extra
            Data.Double.Extra.Types
            Data.Double.Extra.Aeson
---  other-modules:
-
   build-depends:  base >= 4.7 && < 5
-               ,  double-conversion == 2.0.2.0
+               ,  double-conversion >= 2.0.2.0
                ,  aeson
                ,  bytestring
                ,  deepseq
