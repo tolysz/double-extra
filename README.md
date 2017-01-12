@@ -10,5 +10,6 @@ DoubleFixed (i :: Nat)
 DoubleShortest
 ```
 
-Please Note
+# Please Note
+
 For GHCJS you need to use the settings from stack till https://github.com/bos/double-conversion/pull/16
