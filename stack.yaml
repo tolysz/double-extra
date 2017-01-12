@@ -1,0 +1,7 @@
+resolver: lts-7.15
+packages:
+- '.'
+extra-deps:
+- rawstring-qm-0.2.3.0
+flags: {}
+extra-package-dbs: []

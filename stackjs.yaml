@@ -1,0 +1,23 @@
+resolver: lts-7.15
+
+packages:
+- '.'
+- location: 
+    git: https://github.com/tolysz/double-conversion
+    commit: 4ae204a688c29d612809d6f9200204b98c4e1d51
+  extra-dep: true
+extra-deps:
+- rawstring-qm-0.2.3.0
+
+flags: {}
+extra-package-dbs: []
+
+compiler: ghcjs-0.2.1.9007015_ghc-8.0.1
+compiler-check: match-exact
+
+setup-info:
+  ghcjs:
+    source:
+      ghcjs-0.2.1.9007015_ghc-8.0.1:
+           url: http://ghcjs.tolysz.org/ghc-8.0-2017-01-11-lts-7.15-9007015.tar.gz
+           sha1: 30d34e9d704bdb799066387dfa1ba98b8884d932
