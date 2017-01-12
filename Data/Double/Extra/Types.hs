@@ -12,13 +12,13 @@ import Data.Coerce as X
 import GHC.Generics
 
 newtype DoublePrecision (i :: Nat) = DoublePrecision Double
-  deriving (Eq,Ord,Show,Read,Generic,NFData,Num,Fractional,Real,RealFrac)
+  deriving (Eq,Enum,Ord,Show,Read,Generic,NFData,Num,Fractional,Floating,Real,RealFrac)
 
 newtype DoubleExponential (i :: Nat) = DoubleExponential Double
-  deriving (Eq,Ord,Show,Read,Generic,NFData,Num,Fractional,Real,RealFrac)
+  deriving (Eq,Enum,Ord,Show,Read,Generic,NFData,Num,Fractional,Floating,Real,RealFrac)
 
 newtype DoubleFixed (i :: Nat) = DoubleFixed Double
-  deriving (Eq,Ord,Show,Read,Generic,NFData,Num,Fractional,Real,RealFrac)
+  deriving (Eq,Enum,Ord,Show,Read,Generic,NFData,Num,Fractional,Floating,Real,RealFrac)
 
 newtype DoubleShortest = DoubleShortest Double
-  deriving (Eq,Ord,Show,Read,Generic,NFData,Num,Fractional,Real,RealFrac)
+  deriving (Eq,Enum,Ord,Show,Read,Generic,NFData,Num,Fractional,Floating,Real,RealFrac)
